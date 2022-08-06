@@ -7,7 +7,6 @@ Tailwind Css Card  is just a card created using tailwind css.
 - Next.Js
 - React.Js
 - Tailwind Css
-- heroicons
 - React-icons
 - JavaScript 
 - Visual Studio Code
@@ -19,9 +18,6 @@ Tailwind Css Card  is just a card created using tailwind css.
   </a>
     <a aria-label="Vercel logo" href="https://reactjs.org/">
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-  </a>
-    <a href="https://www.framer.com/motion/">
-   <img src="https://img.shields.io/badge/Framer%20motion-black?style=for-the-badge&logo=framer&logoColor=white"/>
   </a>
  
   <a aria-label="Vercel logo" href="https://www.javascript.com/">
@@ -37,7 +33,9 @@ Tailwind Css Card  is just a card created using tailwind css.
   
 </p>
 
-
+# How it look's
+<img src="pics/1.png" />
+<img src="pics/2.png" />
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
