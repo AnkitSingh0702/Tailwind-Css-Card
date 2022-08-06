@@ -4,14 +4,17 @@ import styles from "../styles/Home.module.css";
 import { RiVisaLine } from "react-icons/ri";
 import { BsArrowRightCircle } from "react-icons/bi";
 import { useState } from "react";
-import Tilt from "react-parallax-tilt";
+
 
 export default function Home() {
   const [toggle, setToggle] = useState(false);
   return (
+    
     <body className={toggle ? "dark" : "light"}>
-      <div className="flex flex-col h-screen my-auto items-center dark:bg-slate-900 overflow-hidden">
-        <div className="my-auto rounded-xl box-border w-96 h-59 bg-gradient-to-r from-sky-500 to-indigo-500 shadow-2xl">
+      <div className="flex flex-col h-screen my-auto items-center dark:bg-slate-900 overflow-hidden ">
+
+
+        <div className=" my-auto rounded-xl box-border w-96 h-59 bg-gradient-to-r from-sky-500 to-indigo-500 shadow-lg shadow-blue-500/50 ">
         <div className="relative mt-2 ml-2" onClick={() => {
               setToggle(!toggle);
             }}>
@@ -55,7 +58,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <button onClick={() => {setToggle(!toggle)}}>DARK MODE</button> */}
+
+      
       </div>
     </body>
   );
